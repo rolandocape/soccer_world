@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99b2d812-6943-47cd-a5d7-8dd9f7f0a456" name="Default" comment="" />
+    <list default="true" id="99b2d812-6943-47cd-a5d7-8dd9f7f0a456" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/images/LaLiga.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/home/home.component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/home/home.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/home/home.component.spec.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/home/home.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/home/home.module.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/sevices/soccerdata.service.spec.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/sevices/soccerdata.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/shared/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/shared/layout/footer/footer.component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/shared/layout/footer/footer.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/shared/layout/footer/footer.component.spec.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/shared/layout/footer/footer.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/shared/layout/header/header.component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/shared/layout/header/header.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/shared/layout/header/header.component.spec.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/shared/layout/header/header.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/shared/layout/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/shared/shared-module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package-lock.json" afterPath="$PROJECT_DIR$/client/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.component.html" afterPath="$PROJECT_DIR$/client/src/app/app.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main.ts" afterPath="$PROJECT_DIR$/client/src/main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/styles.css" afterPath="$PROJECT_DIR$/client/src/styles.css" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -49,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Routes.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Routes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/routes/Routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            <state relative-caret-position="240">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -84,11 +111,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="310">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -100,6 +137,9 @@
     <findStrings>
       <find>NgModule</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -136,6 +176,7 @@
         <option value="$PROJECT_DIR$/client/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/client/src/app/sevices/soccerdata.service.ts" />
         <option value="$PROJECT_DIR$/client/.gitignore" />
+        <option value="$PROJECT_DIR$/server/.gitignore" />
       </list>
     </option>
   </component>
@@ -159,11 +200,12 @@
     <handled-path value="$PROJECT_DIR$/server/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
+    <option name="x" value="15" />
     <option name="y" value="23" />
     <option name="width" value="1439" />
     <option name="height" value="812" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -190,11 +232,6 @@
               <item name="soccer_world" type="b2602c69:ProjectViewProjectNode" />
               <item name="soccer_world" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soccer_world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soccer_world" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,12 +318,12 @@
       <updated>1506444478651</updated>
       <workItem from="1506444481498" duration="11050000" />
       <workItem from="1506521256800" duration="6027000" />
-      <workItem from="1506528515644" duration="119118000" />
+      <workItem from="1506528515644" duration="120945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136195000" />
+    <option name="totallyTimeSpent" value="138022000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -298,7 +335,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="23" width="1439" height="812" extended-state="0" />
+    <frame x="15" y="23" width="1439" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -308,7 +345,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21438646" sideWeight="0.43243244" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5360231" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41354465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -690,14 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -705,17 +734,6 @@
           <folding>
             <element signature="e#0#48#0" expanded="true" />
             <element signature="e#1125#1144#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#md-divider#0;n#md-list-item#0;n#md-nav-list#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#md-divider#0;n#md-list-item#0;n#md-nav-list#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -732,8 +750,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="310">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#md-divider#0;n#md-list-item#0;n#md-nav-list#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#md-divider#0;n#md-list-item#0;n#md-nav-list#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding />
         </state>
       </provider>
