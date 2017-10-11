@@ -1,7 +1,7 @@
 const request = require('request');
 const URL = 'https://sportsop-soccer-sports-open-data-v1.p.mashape.com/v1/';
 const mongojs = require('mongojs');
-const db = mongojs('mongodb://rolando:rolando@ds117830.mlab.com:17830/soccer_app_db',['leagues']);
+const db = mongojs('mongodb://rolando:rolando@ds117830.mlab.com:17830/soccer_app_db', ['leagues']);
 
 
 class Routes {
@@ -13,11 +13,11 @@ class Routes {
 
     static getLeagues(req, res) {
 
-        db.leagues.find(function(err, leagues){
-            if(err){
+        db.leagues.find(function (err, leagues) {
+            if (err) {
                 res.send(err);
-            }else {
-                if(leagues.length === 0){
+            } else {
+                if (leagues.length === 0) {
                     request({
                         url: URL + 'leagues',
                         headers: {
@@ -28,13 +28,13 @@ class Routes {
                         if (error) {
                             throw new Error(error);
                         }
-                          const arrayOfLeagues= JSON.parse(response.body).data.leagues;
+                        const arrayOfLeagues = JSON.parse(response.body).data.leagues;
 
 
-                            db.leagues.save(arrayOfLeagues, function(err, result){
-                            if(err){
+                        db.leagues.save(arrayOfLeagues, function (err, result) {
+                            if (err) {
                                 res.send(err);
-                            }else{
+                            } else {
                                 res.json(result);
                             }
                         });
@@ -42,29 +42,41 @@ class Routes {
 
                         //res.send(response.body);
                     })
-                }else{
+                } else {
                     res.json(leagues);
                 }
             }
         });
-
     }
 
     static getLeague(req, res) {
-        request({
-            url: URL + 'leagues/' + req.params.league_slug,
-            headers: {
-                'X-Mashape-Key': 'x2l0pN8e5Mmsh5YEdqH6UxwP8CX0p11iro6jsnufrIxDLIu5mN',
-                'Accept': 'application/json'
-            }
-        }, (error, response) => {
-            if (error) {
-                throw new Error(error);
-            }
-            res.json(response);
-        })
-    }
+        db.leagues.findOne({
+            league_slug: req.params.league_slug
+        }, function (err, league) {
+            if (err) {
+                res.send(err);
+            } else {
+                if (league.league_slug === null) {
+                    request({
+                        url: URL + 'leagues/' + req.params.league_slug,
+                        headers: {
+                            'X-Mashape-Key': 'x2l0pN8e5Mmsh5YEdqH6UxwP8CX0p11iro6jsnufrIxDLIu5mN',
+                            'Accept': 'application/json'
+                        }
+                    }, (error, response) => {
+                        if (error) {
+                            throw new Error(error);
+                        }
+                        res.json(response);
+                    })
+                } else {
+                    res.json(league);
+                }
 
+            }
+        });
+    }
 }
+
 
 module.exports = Routes;
